@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+		<title>Order</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
+    	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" />
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<section class="head">
+			<div class="container">
+				<h1>Złóż swoje zamówienie</h1>
+				<h4>Wybierz swoje produkty i ich ilość:</h4>
+			</div>
+		</section>
+		<section class="products">
+			<div class="container">
+				<div class="row text-center">
+					<div class="col-md-4 col-sm-4">
+						<p>Produkt 1</p>
+						<p>5 zł</p>
+						<button id="productone">Wybierz</button>
+						<div class="input-group" id="inputone">
+						    <input type="number" class="form-control" id="qtyone" placeholder="Ilość...">
+						    <span class="input-group-btn">
+						    <button class="btn btn-default" type="submit" id="orderone">Do koszyka</button>
+						    </span>
+					    </div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<p>Produkt 2</p>
+						<p>10 zł</p>
+						<button id="producttwo">Wybierz</button>
+						<div class="input-group" id="inputtwo">
+					        <input type="number" class="form-control" id="qtytwo" placeholder="Ilość...">
+					        <span class="input-group-btn">
+					        <button class="btn btn-default" type="submit" id="ordertwo">Do koszyka</button>
+						    </span>
+					    </div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<p>Produkt 3</p>
+						<p>15 zł</p>
+						<button id="productthree">Wybierz</button>
+						<div class="input-group" id="inputthree">
+						    <input type="number" class="form-control" id="qtythree" placeholder="Ilość...">
+						    <span class="input-group-btn">
+						    <button class="btn btn-default" type="submit" id="orderthree">Do koszyka</button>
+						    </span>
+					    </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="choice">
+			<div class="container">
+				<h4>Twój koszyk:</h4>
+				<p id="info">Brak produktów w koszyku</p>
+				<p id="resultone"></p>
+				<p id="resulttwo"></p>
+				<p id="resultthree"></p>
+				<p id="suma"></p>
+				<div class="row">
+					<div class="col-md-12 col-sm-12">
+						<div class="btn-group send-order" id="sendorder" role="group" aria-label="...">
+							<button type="button" class="btn btn-default" id="buttonsend">Złóż zamówienie</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script type="text/javascript" src="js/scripts.js"></script>
+	</body>
+</html>

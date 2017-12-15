@@ -1,0 +1,16 @@
+.input-group {
+	display: none;
+}
+.send-order {
+	display: none;
+}
+section {
+	margin-bottom: 25px;
+}
+.input-group {
+	margin: 30px 0;
+}
+#orderone, #ordertwo, #orderthree {
+	margin: 30px 0;
+}
+
